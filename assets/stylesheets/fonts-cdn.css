@@ -1,0 +1,910 @@
+html {
+  background-image: url(./assets/images/red.jpg);
+  /*background: rgba(246,45,19,1);
+  background: -moz-linear-gradient(-45deg, rgba(246,45,19,1) 0%, rgba(241,54,30,1) 0%, rgba(34,8,4,1) 86%, rgba(0,0,0,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(246,45,19,1)), color-stop(0%, rgba(241,54,30,1)), color-stop(86%, rgba(34,8,4,1)), color-stop(100%, rgba(0,0,0,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(246,45,19,1) 0%, rgba(241,54,30,1) 0%, rgba(34,8,4,1) 86%, rgba(0,0,0,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(246,45,19,1) 0%, rgba(241,54,30,1) 0%, rgba(34,8,4,1) 86%, rgba(0,0,0,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(246,45,19,1) 0%, rgba(241,54,30,1) 0%, rgba(34,8,4,1) 86%, rgba(0,0,0,1) 100%);
+  background: linear-gradient(135deg, rgba(246,45,19,1) 0%, rgba(241,54,30,1) 0%, rgba(34,8,4,1) 86%, rgba(0,0,0,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f62d13', endColorstr='#000000', GradientType=1 ); */
+}
+
+body  {
+  background-color: black;
+  background-image: url(./assets/images/red.jpg);
+  font-family: 'Lora';
+
+}
+
+.stretch {
+  background-size: 100% 100%;
+}
+
+.nav-tabs li a {
+    color: #red;
+    font-family: 'Lora-Regular';
+    letter-spacing: 3px;
+
+  }
+
+.navbar-inverse1 {
+  background-color: black;
+  border-color: red;
+  font-size: 10px;
+
+}
+
+div {
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+
+div.navbar-header {
+
+  font-size: 20px;
+}
+
+div.panel-primary1 {
+  font-family: 'Lora-Regular';
+  color: red;
+  font-size: 17px;
+  background-color: white;
+}
+
+div.panel-primary1:hover {
+
+}
+
+nav.navbar1 {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    width: 40%;
+    font-size: 10px;
+    background: black;
+    border: 1px solid transparent;
+}
+
+ul.navbar-nav {
+  line-height: 20px;
+  font-size: 10px;
+}
+
+nav.navbar1:hover {
+  font-size: 20px;
+}
+
+div.container-fluid1 {
+  font-size: 10px;
+  padding-right: 15px;
+padding-left: 15px;
+margin-right: auto;
+margin-left: auto;
+}
+
+}
+button.button2:hover {
+font-size: 20px !important;
+}
+
+
+
+
+p {
+  font-family: 'Lora-regular';
+  color: white;
+  font-size: 16px;
+  line-height: 170%;
+  padding: 15px;
+}
+
+dt.bold {
+  font-size: 22px;
+  color: red;
+  letter-spacing: 2px;
+}
+
+div.list {
+  font-family: 'Lora-regular';
+  color: white;
+  font-size: 16px;
+  line-height: 170%;
+}
+
+dl.list {
+  font-family: 'Lora-regular';
+  color: white;
+  font-size: 18px;
+  line-height: 170%;
+  float: left;
+}
+
+dl.listb {
+  font-family: 'Lora-regular';
+  color: white;
+  font-size: 18px;
+  line-height: 170%;
+  float: right;
+}
+
+div.a {
+    text-indent: 18px;
+    color: red;
+    font-size: 17px;
+}
+
+.p2 {
+  font-family: 'Lora-regular';
+  color: white;
+  text-align: justify; right;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 20px;
+}
+
+.p3 {
+  font-family: 'Lora-regular';
+  color: white;
+  text-align: justify; right;
+  font-size: 16px;
+  line-height: 150%;
+  padding-left: 20px;
+}
+.image0 {
+  position: absolute;
+  float: left;
+  left: 10%;
+  top: 10%;
+  width: 50%;
+
+}
+
+.image1  {
+    background: black;
+    position: absolute;
+    float: left;
+    padding-top: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
+    width: 50%;
+    height: 50%;
+    text-align: left;
+
+}
+
+.image2 {
+  float: left;
+  width: 27%;
+  height: 27%;
+  padding-top: 7px;
+  padding-right: 35px;
+  padding-left: 35px;
+  clip: rect(50px,60px,50px,5px);
+}
+
+.image3 {
+  float: right;
+  width: 27%;
+  height: 27%;
+  padding-left: 35px;
+  padding-right: 35px;
+  clip: rect(50px,60px,50px,5px);
+}
+
+.image5 {
+  float: left;
+  width: 27%;
+  height: 27%;
+  padding-right: 35px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+  clip: rect(50px,60px,50px,5px);
+}
+
+.image-container {
+  display: block;
+   margin: auto;
+}
+
+.home1 {
+  font-size: 100px;
+  font-family: 'Monoton', cursive;
+  text-align: image1;
+
+}
+@font-face {
+  font-family: 'Monoton';
+  src: url("../fonts/Monoton-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lora', serif;
+  src: url("../fonts/Lora-Regular.ttf")
+}
+
+nav {
+  color: white;
+  width: 55%;
+  height: 45px;
+  background: transparent;
+  margin-top: -16px;
+  text-align: center;
+  font-size: 9px;
+
+}
+
+br {
+  background-image: url(./assets/images/red.jpg);
+}
+
+h1.other-pages {
+  left: 40%;
+  top: 10%;
+  width: 100%;
+  font-size: 120%;
+  line-height: 120%;
+  font-family: 'Monoton', cursive;
+  /* text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration-color: white; */
+  color: white;
+  padding: 10px;
+}
+
+h1.home-heading {
+  position: absolute;
+  float: right;
+  left: 40%;
+  top: 10%;
+  width: 100%;
+  font-size: 670%;
+  line-height: 120%;
+  font-family: 'Monoton', cursive;
+  /* text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration-color: white; */
+  color: white;
+  padding: 10px;
+}
+
+div.head2 {
+
+  text-align: center;
+  left: 40%;
+  top: 5%;
+  width: 100%;
+  font-size: 570%;
+  line-height: 120%;
+  line-kerning: 20px;
+  font-family: 'Monoton', cursive;
+  color: white;
+  padding: 10px;
+}
+
+h2 {
+  font-family: 'Lora', bold;
+  color: red;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Lora';
+  color: white;
+  font-size: 27px;
+}
+
+h3.little {
+  font-family: 'Lora', italic;
+  color: white;
+  font-size: 17px;
+}
+
+h4 {
+  line-height: -120%;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  font-kerning: 100px;
+  font-family: 'Monoton', cursive;
+  color: red;
+  background: black;
+  letter-spacing: 2px;
+}
+
+h4.adjust {
+  line-height: -160%;
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  font-kerning: 100px;
+  font-family: 'Monoton', cursive;
+  color: red;
+  background: black;
+  letter-spacing: 2px;
+}
+
+h5 {
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  font-kerning: 100px;
+  font-family: 'Lora', bold;
+  /* text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration-color: white; */
+  color: red;
+  background: black;
+  letter-spacing: 2px;
+}
+
+h6 {
+  width: 100%;
+  height: 100%;
+  font-size: 40px;
+  font-kerning: 100px;
+  font-family: 'Monoton', cursive;
+  /* text-decoration: overline;
+  text-decoration: line-through;
+  text-decoration: underline;
+  text-decoration-color: white; */
+  color: red;
+  background: black;
+  letter-spacing: 2px;
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.anchor1 {
+  color: white;
+  font-size: 18px;
+  margin-top: -30px;
+  width: 72%;
+
+}
+
+.anchor2 {
+  color: white;
+  font-size: 30px;
+  width: 100%;
+  height: 100%;
+  display: inline;
+
+}
+
+.anchor2:hover {
+  font-size: 26px;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  margin: auto;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  left: 0;
+  top: 20px !important;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+
+  	max-width: 80%;
+  	border-radius: 3px;
+    background: black;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+}
+
+.modal-content:empty {
+  top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.btn1 {
+
+  background-color: red;
+  border-radius: 4px;
+  width: 250px;
+  height: 50px;
+  margin-right: 30px;
+      border: none;
+      color: white;
+      padding: 12px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 19px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.youtube {
+  padding: 50px;
+  padding-left: 100px;
+}
+
+.spotify {
+  padding: 50px;
+}
+
+.btn1:hover {
+  font-size: 20px;
+  color: white;
+
+}
+
+.btn1:clicked {
+  font-size: 19px;
+  color: white;
+
+}
+
+.peppermint {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+
+.peppermint:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.btn2 {
+
+  background-color: white;
+  border-radius: 4px;
+  width: 250px;
+  height: 50px;
+  padding-left: 100px;
+      border: none;
+      color: red;
+      padding: 12px 28px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 19px;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.btn2:hover {
+  font-size: 20px;
+  color: red;
+
+}
+
+.btn2:clicked {
+  font-size: 19px;
+  color: white;
+
+}
+.image4 {
+    display: inline;
+    width: 20px;
+    height: 20px;
+}
+
+.navbar-btn {
+
+  background: transparent;
+  border: none;
+}
+
+
+a:hover{
+  font-size: 19px;
+  color: red;
+}
+
+nav:hover{
+  text: red;
+}
+
+table {
+  font-size: 20px;
+  color: red;
+  float: right;
+}
+
+.hi {
+  table-layout: inherit;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.hi:hover {
+
+  font-size: 21px;
+}
+container {
+
+/* background-color: black; */
+
+}
+grad {
+  background: linear-gradient(to bottom right, red, black);
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+
+.content {
+    position: absolute;
+    top: 11%;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 2;
+    background: rgba(255, 0, 0, 0.15);
+    color: red;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.video-overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0,0,0,.7);
+}
+
+.container1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+.left-column1 {
+  width: 65%;
+
+  padding-left: -20px;
+}
+
+.right-column1 {
+  width: 35%;
+  margin-top: 40px;
+  margin-left: 2px;
+}
+.left-column img {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.left-column img.active {
+  opacity: 1;
+}
+.product-description1 {
+  padding-left: 10px;
+  border-bottom: 1px solid #white;
+  color: white;
+  margin-bottom: 20px;
+}
+.product-description1 span {
+  font-size: 12px;
+  padding-left: 20px;
+  color: #white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.product-description1 h1 {
+  padding-left: 20px;
+  font-family: 'Lora-Regular';
+  font-weight: 300;
+  font-size: 52px;
+  color: red;
+  letter-spacing: -1px;
+}
+
+.product-description1 p {
+  padding-left: 20px;
+  font-family: 'Lora-regular';
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  line-height: 24px;
+}
+
+.product-color {
+  margin-bottom: 30px;
+}
+
+.color-choose div {
+  display: inline-block;
+}
+
+.color-choose input[type=&quot;radio&quot;] {
+  display: none;
+}
+
+.color-choose input[type=&quot;radio&quot;] + label span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.color-choose input[type=&quot;radio&quot;] + label span {
+  border: 2px solid #FFFFFF;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+}
+
+.color-choose input[type=&quot;radio&quot;]#red + label span {
+  background-color: #C91524;
+}
+.color-choose input[type=&quot;radio&quot;]#blue + label span {
+  background-color: #314780;
+}
+.color-choose input[type=&quot;radio&quot;]#black + label span {
+  background-color: #323232;
+}
+
+.color-choose input[type=&quot;radio&quot;]:checked + label span {
+  background-image: url(images/check-icn.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.cable-choose {
+  margin-bottom: 20px;
+}
+
+.cable-choose button {
+  border: 2px solid #E1E8EE;
+  border-radius: 6px;
+  padding: 13px 20px;
+  font-size: 14px;
+  color: #5E6977;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.cable-choose button:hover,
+.cable-choose button:active,
+.cable-choose button:focus {
+  border: 2px solid #86939E;
+  outline: none;
+}
+
+.cable-config1 {
+
+  color: white;
+  margin-bottom: 20px;
+}
+
+.cable-config1 a {
+  color: #358ED7;
+  text-decoration: none;
+  font-size: 12px;
+  position: relative;
+  margin: 10px 0;
+  display: inline-block;
+}
+.cable-config1 a:before {
+  content: &quot;?&quot;;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid rgba(53, 142, 215, 0.5);
+  display: inline-block;
+  text-align: center;
+  line-height: 16px;
+  opacity: 0.5;
+  margin-right: 5px;
+}
+.product-price1 {
+  display: flex;
+  align-items: center;
+}
+
+.product-price1 span {
+  font-size: 26px;
+  font-weight: 300;
+  color: white;
+  margin-right: 20px;
+}
+
+.cart-btn1 {
+  display: inline-block;
+  background-color: red;
+  border-radius: 6px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  transition: all .5s;
+}
+.cart-btn1:hover {
+  background-color: black;
+}
+
+@media (max-width: 940px) {
+  .container {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+
+  .left-column img {
+    width: 300px;
+    right: 0;
+    top: -65px;
+    left: initial;
+  }
+}
+
+@media (max-width: 535px) {
+  .left-column img {
+    width: 220px;
+    top: -85px;
+  }
+}
