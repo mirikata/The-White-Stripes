@@ -380,6 +380,10 @@ a{
 
 }
 
+.anchor1:hover {
+  font-size: 32px;
+}
+
 .anchor2 {
   color: white;
   font-size: 30px;
@@ -392,6 +396,7 @@ a{
 .anchor2:hover {
   font-size: 26px;
 }
+
 .row > .column {
   padding: 0 8px;
 }
