@@ -61,7 +61,7 @@ nav.navbar1 {
     position: relative;
     min-height: 50px;
     margin-bottom: 20px;
-    width: 25%;
+    width: 40%;
     font-size: 10px;
     background: black;
     border: 1px solid transparent;
@@ -72,7 +72,7 @@ ul.navbar-nav {
   font-size: 10px;
 }
 
-nav.navbar-nav:hover {
+nav.navbar1:hover {
   font-size: 20px;
 }
 
@@ -165,7 +165,9 @@ div.a {
     background: black;
     position: absolute;
     float: left;
-    padding: 50px;
+    padding-top: 30px;
+    padding-right: 35px;
+    padding-left: 35px;
     width: 50%;
     height: 50%;
     text-align: left;
@@ -176,7 +178,7 @@ div.a {
   float: left;
   width: 27%;
   height: 27%;
-  padding-top: 29px;
+  padding-top: 7px;
   padding-right: 35px;
   padding-left: 35px;
   clip: rect(50px,60px,50px,5px);
@@ -202,8 +204,8 @@ div.a {
 }
 
 .image-container {
-  display: flex;
-  justify-content: center;
+  display: block;
+   margin: auto;
 }
 
 .home1 {
@@ -372,15 +374,15 @@ a{
 
 .anchor1 {
   color: white;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: -30px;
-  width: 72%;
+  width: 80%;
 
 }
 
 .anchor2 {
   color: white;
-  font-size: 25px;
+  font-size: 30px;
   width: 100%;
   height: 100%;
   display: inline;
@@ -389,6 +391,150 @@ a{
 
 .anchor2:hover {
   font-size: 26px;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  margin: auto;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: fixed;
+  left: 0;
+  top: 20px !important;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+
+  	max-width: 80%;
+  	border-radius: 3px;
+    background: black;
+  	box-shadow: 0 3px 6px rgba(0,0,0,0.9);
+}
+
+.modal-content:empty {
+  top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 10px 10px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
 
 .btn1 {
@@ -404,7 +550,7 @@ a{
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 19px;
+      font-size: 16px;
       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
@@ -419,7 +565,7 @@ a{
 }
 
 .btn1:hover {
-  font-size: 20px;
+  font-size: 17px;
   color: white;
 
 }
@@ -448,14 +594,14 @@ a{
   width: 250px;
   height: 50px;
   padding-left: 100px;
-      border: none;
-      color: red;
-      padding: 12px 28px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 19px;
-      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border: none;
+  color: red;
+  padding: 28px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 
